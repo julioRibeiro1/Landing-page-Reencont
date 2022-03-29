@@ -1,57 +1,56 @@
 @import url('https://fonts.googleapis.com/css2? family= Oswald:wght@200;400 & family= Righteous & family= Sarala:wght@700 & display=swap');
 
-body{
-    font-family: 'Oswald', sans-serif;
+*{
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
     background-color: #15161b;
 }
-
-.logo{
-    display: flex;
+.cabecalho{
+  display: flex;
     justify-content: center;
-    padding: 62px;
-}
-
-.principal{
-    display: flex;
-    justify-content: center;
-}
-
-.texto-principal-um{
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-    font-size: 30px;
-    color: #FFFFFF;
-    margin-top: 100px;
-}
-
-.texto-principal-h1{
-    font-family: 'Oswald', sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 130px;
     font-size: 45px;
-    margin-top: -18;
-    margin-top: 20px;
-    
 }
 
-.img-casal{
-    width: 380px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 50px;
+.section-um{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ font-family: 'Oswald',sans-serif;
+ color: #fff;
+ margin-left: 249px;
+ margin-right: 235px;
+}
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+}
+.text-um{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-principal{
+    font-size: 68px;
+    font-weight: 700;
 }
 
 .button{
-    font-family: 'Oswald', sans-serif;
-    display: inline-block;
-    background-color: #1a7993;
-    padding: 15px 60px;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 80px;
+    position: absolute;
+    width: 448px;
+    height: 97px;
+    left: 228px;
+    top: 730px;
+    background: #1A7993;
+    border-radius: 5px;
 }
+
+.imagem-principal{
+    
+}
+

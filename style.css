@@ -18,39 +18,37 @@ body{
 }
 
 .section-um{
- display: flex;
- flex-direction: row;
- justify-content: center;
- font-family: 'Oswald',sans-serif;
- color: #fff;
- margin-left: 249px;
- margin-right: 235px;
-}
-.texto-principal{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
+
 .text-um{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Oswald',sans-serif;
 }
 
 .text-principal{
     font-size: 68px;
-    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
 }
 
 .button{
-    position: absolute;
-    width: 448px;
-    height: 97px;
-    left: 228px;
-    top: 730px;
-    background: #1A7993;
-    border-radius: 5px;
+    background-color: #1a7993;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
 }
 
-.imagem-principal{
-    
+.text-secundario{
+    display: flex;
+    justify-content: center;
+    font-family:'Oswald', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 265px;
 }
-
